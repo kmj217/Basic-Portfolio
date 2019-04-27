@@ -3,14 +3,53 @@
     <head>
         <meta charset="UTF">
         <title>Keith M. Jacobs Portfolio</title>
+        <link href= "assets/css/style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div>
-            <h1 id="name">Keith Michael Jacobs</h1>
-            <a href="index.html">About</a>
-            <a href="#">Portfolio</a>
-            <a href="contact.html">Contact</a>
+    
+    <header>
+        <div class="container">
+
+            <h1 id="name">Keith M. Jacobs</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
         </div>
+    </header>
+    <section>
+        <div class="main-container">
+                <content>
+
+                        <h2 class="main">Contact</h2>
+                        <hr/>
+
+                        <form>
+
+                            Name<br>
+                            <input type="text" name="fullname" value="John Smith">
+                            <br>
+                            Email<br>
+                            <input type="text" name="email" value="example@gmail.com">
+                            <br>
+                            Message<br>
+                            <textarea type="textarea" name="textarea" value=""></textarea>
+                            <br>
+                            <input type="submit" name="submit" onclick="alert('Thank you!')" value="Submit">
+
+                        </form>
+            
+                </content>
+        </div>
+        <footer id="footer">
+            <p>Copyright &copy; 2019</p>
+        </footer>
+    </section>
 
     </body>
 </html>
