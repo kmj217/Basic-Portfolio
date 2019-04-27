@@ -27,22 +27,19 @@
                 <content>
 
                         <h2 class="main">Contact</h2>
-                        <hr/>
 
-                        <form>
-
-                            Name<br>
-                            <input type="text" name="fullname" value="John Smith">
-                            <br>
-                            Email<br>
-                            <input type="text" name="email" value="example@gmail.com">
-                            <br>
-                            Message<br>
-                            <textarea type="textarea" name="textarea" value=""></textarea>
-                            <br>
-                            <input type="submit" name="submit" onclick="alert('Thank you!')" value="Submit">
-
-                        </form>
+                            <form>
+                                <span>Name</span><br>
+                                <input id="form-name" type="text" name="name" value="John Smith">
+                                <br>
+                                <span>Email</span><br>
+                                <input id="email" type="text" name="email" value="example@gmail.com">
+                                <br>
+                                <span>Message</span><br>
+                                <textarea id="message"></textarea>
+                                <br>
+                                <input id="submit" type="submit" value="Submit">
+                            </form>
             
                 </content>
         </div>
